@@ -18,5 +18,7 @@ jobs:
         dotnet-version: 5.0.100
     - name: Install dependencies
       run: dotnet tool restore
-    - name: Run
-      run: dotnet tool run Web.Ping --host http://www.zkea.net
+    - name: Ping kingston
+      run: dotnet tool run Web.Ping --host https://www.kingston.com/unitedstates/us
+    - name: Ping HyperX
+      run: dotnet tool run Web.Ping --host https://www.hyperxgaming.com/unitedstates/us
